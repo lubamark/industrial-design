@@ -1,4 +1,4 @@
 # industrial-design
 
-Учебный макет HTML Academy
-флоты и медиазапросы
+Учебный макет HTML Academy.<br>
+Флоты и медиазапросы
