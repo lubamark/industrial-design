@@ -1,0 +1,409 @@
+body {
+	margin:0;
+	padding:0;
+	background-color: #272f45;
+	color: #ffffff;
+	font-family: 'HKGroteskRegular';  
+}
+
+.clear:after{
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.container {
+	max-width: 1160px;
+	margin: 0 auto;
+}
+header {
+	margin-top: 62px;
+	margin-bottom: 52px;
+}
+
+.logo img {
+	width: 294px;
+	height: 72px;
+	float: left;
+}
+
+header input {
+ 	float: right;
+	background-color: #272f45;
+	color: rgba(255,255,255, 0.60);
+	width: 175px;
+	height: 40px;
+	font-size: 24px;
+	font-family: 'HKGroteskLight';
+	font-weight: 600;
+	text-indent: 35px;
+	border: none;	
+	border-bottom: 3px solid #63757e;
+	background: url("https://user-images.githubusercontent.com/30136565/28816831-6ddc9662-76d0-11e7-8e8d-db9e5b204e54.png") no-repeat left center;
+	transition: 0.5s;
+	}
+
+header input:focus {
+	text-indent: 0;
+	background-image: none
+}
+
+.shop {
+	position: relative;
+	background-color: #a5b4b9;
+	max-width: 1160px;
+	height: 690px;
+	background: url("https://user-images.githubusercontent.com/30136565/28358351-c5a841ee-6c98-11e7-9a79-39f1bfc0d4a2.jpg") no-repeat top left;
+	
+}
+
+.shop-description {
+	position: relative;
+	float: left;
+	padding: 110px 60px;
+}
+
+.shop h1 {
+	font-family: 'League Spartan Bold', arial;
+	font-weight: 800;
+	font-size: 80px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.shop p {
+	width: 350px;
+	font-family: 'HKGroteskLight';
+	font-size: 32px;
+}
+
+button {
+	border: 3px solid #eec9a2;
+	background: none;
+	font-family: 'HKGroteskLight';
+	vertical-align: middle;
+	text-align: center;
+	color: #ffffff;
+	width: 160px;
+	height: 60px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+button:hover {background: #eec9a2;}
+
+button:active { color: #272f45;;}
+
+.btn-shop {
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+}
+
+.kickstarter {
+	position: absolute;
+	width: 112px;
+	height: 115px;
+	top: 35px;
+	right: 35px;
+}
+
+.buy {
+	
+	width: 100%;
+	margin-top: 40px;
+}
+
+.buy-item {
+	position: relative;
+	box-sizing: border-box;
+	height: 520px;
+	width: 48%;
+}
+	
+.buy-item h2 {
+	font-family: "LeagueSpartan", Arial;
+	font-size: 48px;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: bold;
+	
+}
+
+.buy-item p {
+	font-family: 'HKGroteskLight';
+	font-size: 24px;
+	height: 60px;
+	
+}
+	
+.buy-item-left {
+	float: left;
+	margin-right: 4%;
+	background: #60b8a3 url("https://user-images.githubusercontent.com/30136565/28616657-bd955ba6-7227-11e7-8947-298c938ea2b6.png") no-repeat -300px -70px;
+	background-size: 150%;
+	text-align: right;
+	padding: 60px 30px 60px 90px;
+	transition: 0.5s;
+	
+}
+.buy-item-left:hover {
+	background-size: 100%;
+	background-position: -120px 20px;
+}
+
+
+.buy-item-right {
+	float: right;
+	background: #7778c6 url('https://user-images.githubusercontent.com/30136565/28652719-a67e27c2-72b3-11e7-9ac1-ac53298e709d.png') no-repeat 150px 245px;
+	padding: 60px 90px 60px 30px;
+	background-size: 100%;
+	transition: 0.5s;
+}
+
+.buy-item-right:hover {
+	background-size: 70%;
+}
+
+.btn-buy,
+.btn-details,
+.btn-subscribe {
+	width: 120px;
+	height: 50px;
+	font-family: "LeagueSpartan", Arial;	
+	font-size: 18px;	
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 60px;
+}
+
+.details {
+	position: relative;
+	max-width: 100%;
+	height: 440px;
+	margin-top: 40px;
+}
+
+.detail-item {
+	width: 32%;
+	min-width: 200px;
+	height: 440px;
+	box-sizing: border-box;
+	padding: 60px 30px 40px 30px;
+	text-align: center;
+	background-size: cover;
+}
+
+.detail-item p {
+	font-family: 'HKGroteskLight';	
+	font-size: 16px;
+	margin: 0;
+}
+
+.detail-item h2 {
+	font-family: "LeagueSpartan", Arial;
+		font-size: 36px;	
+		text-transform: uppercase;	
+		margin: 0;
+		margin-top: 10px; 
+		font-weight: 600;
+}
+
+.detail-item-left,
+.detail-item-middle {
+	float: left;
+	margin-right: 2%;
+	}
+
+.detail-item-left {
+	background: #e97864 url("https://user-images.githubusercontent.com/30136565/28655204-4b3676f6-72c4-11e7-8ae1-cd4520f4dcb2.png") no-repeat 65px 255px;
+	
+}
+
+.detail-item-middle {
+	background: #557581 url('https://user-images.githubusercontent.com/30136565/28655223-791fb992-72c4-11e7-82a6-500864b69717.png') no-repeat 50px -95px;
+	padding-top: 260px;
+}
+
+.detail-item-right{
+	float: right;
+	background: #82c9d8 url('https://user-images.githubusercontent.com/30136565/28655259-b45ee636-72c4-11e7-9e07-7fcd4964f1fd.png') no-repeat 30px 250px;
+	}
+	
+.btn-details {
+	margin-top: 30px;
+}
+
+.subscribe {
+	font-family: 'HKGroteskLight';
+	color: #92a1a9;
+	margin-top: 150px;
+	text-align: center;
+	max-width: 810px;
+	margin: 150px auto 0 auto;
+	}
+	
+.subscribe h3 {
+	font-size: 36px;
+	margin: 0;
+}
+.subscribe p {
+	font-size: 18px;
+}
+.subscribe input,
+.btn-subscribe {
+	margin: 0 auto;	
+	min-width: 350px;	
+	min-height: 50px;
+	box-sizing: border-box;
+}
+.subscribe input {
+	display: block;
+	margin: 40px auto 20px auto;
+	color: rgba(255,255,255, 0.60);
+	background: none;
+	border: 3px solid #92a1a9;
+	text-align: center;
+	color: #92a1a9;
+	font-family: 'HKGroteskLight';
+	font-size: 24px;
+}
+
+.btn-subscribe {
+	margin: 0px;
+	border-color: #82c9d8;
+}
+
+.btn-subscribe:hover {background: #82c9d8; }
+
+footer {
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'HKGroteskLight';	
+	color: #92a1a9;
+}
+
+.footer-menu {margin: 0;}
+
+.footer-menu li {
+	display: inline-block;
+	list-style-type: none;
+	color: #92a1a9;
+	font-size: 24px;
+	margin-right: 30px;
+	position: relative;
+}
+
+.footer-menu li a {
+	text-decoration: none;
+	color: #92a1a9;
+	
+}
+
+.footer-menu li::before {
+	content: '';
+	position: absolute;
+	top: 14px;
+	left: -17px;
+	width: 6px;
+	height: 6px; 
+	background: #92a1a9;
+	border-radius: 50%;
+}
+
+.footer-menu li:first-child::before {
+	display: none;
+}
+
+footer p {
+	font-size: 18px;
+	margin: 30px auto 65px auto;
+}
+
+@media screen and (max-width: 1280px) {
+	.detail-item {	padding: 60px 15px 40px 15px;}
+	.detail-item-middle {padding-top: 230px;}
+}
+@media screen and (max-width: 980px) {
+	.container {max-width: 960px;	margin: 0 auto;}
+	.shop {	max-width: 100%; height: 500px; background-size: cover;}
+	.shop h1 {	font-size: 70px;}
+	.btn-shop {	bottom: 50px;}
+	.buy {	min-height: 320px;	margin-top: 20px;}
+	.buy-item {	height: 400px;	max-width: 49%;}	
+	.buy-item h2 {	font-size: 40px;}
+	.details {	margin-top: 25px;}
+	.detail-item {	height: 380px;	padding: 30px 15px 20px 15px;}
+	.detail-item h2 {	font-size: 28px;}
+	.detail-item-left {	background-position: 30px 240px; background-size: cover; }
+	.detail-item-middle { background-position: 30px -105px;	padding-top: 215px;}
+	.detail-item-right{	background-position: 2px 210px;	}
+	.btn-details {	margin-top: 20px;}
+	.subscribe {margin: 60px auto 0 auto;	}	
+}
+
+@media screen and (max-width: 800px) {	
+	.container {max-width: 760px;	margin: 0 auto;}
+	.shop-description {	padding: 80px 60px;}
+	.shop p {font-size: 28px; margin-top: 0; }
+	.btn-shop {	bottom: 20px;}
+	.buy {margin-top: 25px;}
+	.buy-item {	height: 350px;	max-width: 49%; }	
+	.buy-item h2 {	font-size: 36px;}
+	.buy-item p {	font-size: 20px;	height: 40px;	}	
+	.buy-item-left {	margin-right: 1%;	background-position: -150px 60px;	background-size: 110%;	padding: 40px 30px 40px 90px;}
+	.buy-item-left:hover {	background-size: 80%;	background-position: -50px 90px;}
+	.buy-item-right {	background-position: 90px 220px;	padding: 40px 90px 40px 30px;	background-size: 85%;}
+	.buy-item-right:hover {	background-size: 60%; background-position: 120px 220px;}
+	.detail-item h2 {	font-size: 24px;}	
+	.detail-item-left {	background-position: 5px 220px; }	
+	.detail-item-middle { background-position: 30px -60px;	padding-top: 200px; background-size: 80%;}
+	.detail-item-right{	background-position: 5px 200px;	background-size: 95%;}	
+	.subscribe {margin: 40px auto 0 auto;}
+	.subscribe h3 {	font-size: 24px;}
+	}
+@media screen and (max-width: 750px) {		
+	.container {max-width: 730px;	margin: 0 auto;}
+	.shop {	height: 400px;}
+	.shop h1 {	font-size: 60px;}	
+	.btn-shop {	bottom: 0;}
+	.shop p {font-size: 24px; margin-top: 0; }
+	.buy {margin-top: 20px;}
+	.buy-item {	height: 280px;	min-width: 100%; float: none;}
+	.buy-item p {	font-size: 20px;	height: 20px;	max-width: 600px; }	
+	.buy-item-left { margin-bottom: 15px; background-position: -180px -50px;	background-size: 60%;}
+	.buy-item-left:hover {	background-size: 50%;	background-position: -80px -20px;}
+	.buy-item-right { background-position: 350px 130px;	background-size: 50%;}
+	.buy-item-right:hover {	background-size: 40%; background-position: 400px 80px;}
+	.subscribe {margin: 20px auto 0 auto;}
+}
+@media screen and (max-width: 625px) {	
+	.container {max-width: 625px;	margin: 0;}
+	header { margin: 30px 20px 30px 20px;}
+	header input { 	float: left; margin-top: 20px;}
+	.shop {	min-height: 380px;	background-size: cover; background-position: -100px;}
+	.shop-description {	padding: 50px 20px;}
+	.shop h1 {	font-size: 60px; margin-bottom: 20px;}
+	.shop p {	width: 250px;	font-size: 22px;}
+	.btn-shop {	bottom: -5px;}
+	.kickstarter {	top: 15px;	right: 30px;}
+	.buy-item {	height: 300px;	}		
+	.buy-item h2 {	font-size: 30px;}	
+	.buy-item-left { background-position: -120px 40px;	background-size: 100%;}	
+	.buy-item-left:hover {	background-position: -120px 40px;	background-size: 100%;}	
+	.buy-item-right {	background-position: 165px 175px;	background-size: 65%;}	
+	.buy-item-right:hover {	background-position: 165px 175px;	background-size: 65%;}	
+	.details {	height: 640px;	margin-top: 30px;}
+	.detail-item {	width: 100%;	min-width: 100%;	height: 200px;		padding: 30px;}
+	.detail-item-left,.detail-item-middle {	float: none;	margin-bottom: 15px;	}
+	.detail-item-left {	background-image: none; }
+	.detail-item-middle {	background-image: none; 	padding-top: 30px;}
+	.detail-item-right{	float: none; background-image: none;	}	
+	.subscribe input,.btn-subscribe {	min-width: 270px;	min-height: 50px;	box-sizing: border-box;}
+	.subscribe input {	display: block;	width: 270px;}  
+	.subscribe h3, .subscribe p { max-width: 90%; margin: 0 auto;}
+	footer {margin-top: 40px;}
+	.footer-menu li {	display: block;	list-style-type: none;	color: #92a1a9;	font-size: 24px;	}
+	.footer-menu li::before {	display: none;}
+	.footer-menu li a {	text-decoration: none;	color: rgba(255,255,255,0.8);	}
+}
